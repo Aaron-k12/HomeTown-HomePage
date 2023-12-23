@@ -1,0 +1,150 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e5e5e5;
+}
+
+
+img {
+    width: 100px;
+}
+
+
+.hero {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-top: 50px;
+    width: 720px;
+    height: 343px;
+    background-image: url(images/capecoast.jpg);
+    background-size: cover;
+    
+    
+}
+
+#place {
+    width: 225px;
+    height: 42px;
+    background: #1D3557; 
+    color: white;
+    margin: 119px auto 10px auto;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#summary {
+    width: 355px;
+    height: 39px;
+    color: #0d1b2a;
+    margin: 0 auto;
+    padding: 8px 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-shadow: 1px 0 8px #0d1b2a;
+}
+
+.activities {
+    display: block;
+    margin: 0 auto;
+    width: 720px;
+    height: 378px;
+    background: #ccd5ae;
+    padding-top: 30px;
+   
+}
+
+.activities > h3 {
+    margin-top: 39px;
+    margin-bottom: 0;
+    font-size: 24px;
+   
+}
+
+h4 {
+   margin: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    align-items: center;
+    margin-top: 54px;
+  
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.lg {
+   width: 227px;
+   height: 198px;
+   background-size: cover;
+   text-align: center;
+}
+
+
+
+.guide-section {
+    width: 720px;
+    height: 394px;
+    margin: 0 auto;
+    padding-top: 1px;
+
+}
+
+.guide-profile {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: #ccd5ae;
+    width: 400px;
+    height: 294px;
+    border-radius: 10px;
+    border-bottom: 5px solid #1D3557;
+    margin: 50px auto;
+    padding: 10px;
+
+}
+
+#guide-img {
+    width: 200px;
+    height: 280px;
+    border-radius: 20px;
+    padding: 10px 0;
+    background-size: cover;
+}
+
+.guide-details {
+    padding: 30px 0 50px 0;
+}
+
+.guide-details > p {
+    font-style: italic;
+
+}
+
+.guide-detatils > h3 {
+    font-style: bold;
+   
+}
+
+.description, .location {
+    font-size: 16px;
+}
